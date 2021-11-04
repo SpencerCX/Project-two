@@ -1,0 +1,204 @@
+/*  ---------------------- Variables ---------------------- */
+
+:root{
+    --dark-primary-color: #7f0000;
+    --light-primary-color: #b53d2a;
+    --primary-color: #7f0000;
+    --text-icons: #dbffff;
+    --accent-color: #9162e4;
+    --primary-text: #181515;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --nav-text: red;
+    --nav-color: black;
+    --border-color: #f05545; 
+    --heading-font: 'Permanent Marker', cursive;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif*/
+*{
+    overflow: auto;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: var(--primary-color);
+    color: var( --primary-text);
+    box-sizing: border-box;
+    
+}
+.container{
+    background: var(--text-icons);
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px auto;
+   
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color:  var(--dark-primary-color);
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-primary-color);
+    text-align: center;
+    
+}
+
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: var(--nav-text);
+    background:var(--nav-color);
+    border: 2px solid var(--nav-text);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+nav a:hover, .button:hover{
+    color: var(--nav-color);
+    background: var(--nav-text);
+    border: 2px solid var(--nav-color);
+    text-decoration:none;
+    border-radius:20px;
+    
+}
+
+nav a:visited, .button:visited{
+    color: var(--nav-text);
+    background: var(--nav-color);
+    border: var(--nav-text);
+    text-decoration: none;
+    border-radius: 20px;
+}
+img{
+    padding: 10px;
+    background: var(--border-color);
+}
+#me{
+    width: 30%;
+    float: none;
+    
+}
+aside{
+    clear: both;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid  var(--border-color);
+    margin-right: 10px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#brochure{
+    float: none;
+    width: 75%;
+    
+}
+
+.card{
+    width: 20%;
+    margin: 10px auto;
+    min-height: 325px;
+    box-sizing: border-box;
+    outline: 15px solid var(--divider-color);
+    float: left;
+    padding: 3px;
+    margin: 5px 5%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 5px 5px rgba(2,5,54,4);
+}
+
+.card p{
+    font-size: .8em;
+    line-height: 2.5;
+}
+.card figure{
+    width: 95%;
+    padding: 2%;
+    margin: 2px auto;
+    vertical-align: top;
+    box-shadow: 1px 1px 1px 2px var(--light-primary-color);
+}
+.card img{
+    vertical-align: top;
+    width: 90%;
+    margin:0px auto;
+}
+
+.card figure figcaption{
+    text-align: center;
+    color: var(--text-font);
+    font-family: var(--heading-font);
+    font-size: 1em;
+
+}
+.card h2{
+    font-family: var(--heading-font);
+    text-shadow: 2px 5px 4px var(--accent-color);
+}
+
+
+.card h3{
+    font-family: var(--heading-font);
+    text-shadow: 2px 5px 4px var(--accent-color);
+}
+
+#gallery{
+    background: var(--text-icons);
+    width: 100%;
+    max-width: 100%;
+    margin: 10px auto;
+   
+}
+
+#color{
+    width: 25%;
+    float: none;
+    margin: 10px 2.5%;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+ 
+figcaption{
+    text-align: left;
+}
+
+
+#digital{
+    float: none;
+}
+
+
+#color-2{
+    width: 40%;
+    float: none;
+    margin: 10px 2.5%;
+}
